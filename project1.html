@@ -1,0 +1,51 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="project.css" />
+    <title>Home</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="heading">
+        <h4>Angoose's Geese Shop</h4>
+      </div>
+      <ul class="nav-links">
+        <li><a class="active" href="project1.html">Home</a></li>
+        <li><a href="project2.html">About</a></li>
+        <li><a href="project3.html">Browse</a></li>
+        <li><a href="project4.html">Contact</a></li>
+        <div class="search-container">
+		<form action="/action_page.php">
+		<input type="text" placeholder="Search.." name="search">
+		</form>
+		</div>
+      </ul>
+    </nav>
+    <div class="body-text"><h1>Welcome to Angoose's Geese Shop!</h1></div>
+    <div class="body-text"><p>We hold a collection of Geese for you to view and buy online!</p></div>
+    <div class="body-text"><p>Please browse with care.</p></div>
+    <div class="body-text"><p>And if you can, please leave a review below; your first name, last name, what you think of the website and a rating!</p></div>
+    <div class="body-text2"><input type="text name="firstname" id="firstname"></div>
+    <br>
+    <div class="body-text2"><input type="text" name="lastname" id="surname"></div>
+    <br>
+    <div class="body-text2"><input type="text name" name="review" id="review"></div>
+    <br>
+    <div class="body-text2"><input type="number" name="rating" id="rating"></div>
+    <br>
+    <br>
+    <div class="body-text3"><input type="button" value="Submit" onclick="run()"></div>
+    <script>
+	function run()
+		{
+			alert("Thank you for leaving a review!")
+		}
+    </script>
+   </body>
+</html>
